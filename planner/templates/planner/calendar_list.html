@@ -1,4 +1,17 @@
-<h1>Kalender-Übersicht</h1>
+<html>
+<head>
+
+<h1  style="color:yellow;">Calender Overview!</h1>
+
+</head>
+
+<body>
+
+<style>
+    body {background-image: url(https://i5.walmartimages.com/asr/e04b9e0d-d302-4e52-8812-22f3f29eb17a.e4cc50d38c3246ac2078250e5273afcc.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF);}
+    </style> 
+
+<h2 style="color:yellow;">The calender(s) you have created are listed here.</h2>
 
 {% if calendars %}
     <ul>
@@ -7,5 +20,10 @@
     {% endfor %}
     </ul>
 {% else %}
-    <p>Keine Kalender angelegt.</p>
+    <p  style="color:yellow;">Looks like you haven't made any calenders yet.</p>
 {% endif %}
+
+<h3  style="color:yellow;">Click here to try out our calculators!</h3>
+
+</body>
+</html>
