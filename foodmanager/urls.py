@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from . import index
+
 urlpatterns = [
     path('planner/', include('planner.urls')),    
     path('admin/', admin.site.urls),
+    path('myplate/',index.myplate)
 ]

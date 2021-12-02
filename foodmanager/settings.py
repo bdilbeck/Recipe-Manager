@@ -56,7 +56,7 @@ ROOT_URLCONF = 'foodmanager.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\blair\Documents\GitHub\Recipe-Manager\foodmanager\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
